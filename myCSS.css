@@ -1,46 +1,60 @@
 @charset "UTF-8";
 /* This is a comment! Text here will be ignored by the browser. */
 body {
-	margin: 0 auto;
+     font: 100%/1.4 Serif;
+     background-color: #FFFFFF;
+     margin: 0;
+     padding: 0;
+     color: #000000;
+}
+
+a:link {
+     color: #FFFFFF;
+}
+a:visited {
+     color: #000000;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
 }
 .homePage {
-	background: #F2008C;
+background: #33ACF0;
 }
 .container {
-	width: 960px;
-	margin: 0 auto;
+width: 960px;
+margin: 0 auto;
 }
 .header {
-	background:#00E880;
-	text-align: center;
-	margin: 0px;
-	padding: 5;
-	float: left;
-	width: 100%;
-	height: 80px;
-	
+background: #EA3AF0;
+text-align: center;
+margin: 0px;
+padding: 5;
+float: left;
+width: 100%;
+height: 80px;
 }
 .nav {
-	background:#D71AF5;
-	margin: 0px;
-	padding: 5;
-	float: left;
-	width: 100%;
-	height: 60px;
-	text-align: center;
+background: #9723D9;
+margin: 0px;
+padding: 5;
+float: left;
+width: 100%;
+height: 60px;
+text-align: center;
 }
 .content {
-	background: #31BCEB;
-	margin: 10px;
-	float: left;
-	width: 100%;
-	text-align: left;
+background: #FC4E66;
+margin: 0px;
+float: left;
+width: 100%;
+height: 400px;
+text-align: center;
 }
 .footer {
-	background: #7900E8;
-	margin: 0px;
-	float: left;
-	width: 100%;
-	height: 50px;
-	text-align: center;
+background: #4E30D9;
+margin: 0px;
+float: left;
+width: 100%;
+height: 50px;
+text-align: center;
 }
