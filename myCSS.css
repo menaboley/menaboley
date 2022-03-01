@@ -18,7 +18,7 @@ a:hover, a:active, a:focus {
      text-decoration: underline;
 }
 .homePage {
-background: #33ACF0;
+background: #F001C6;
 }
 .container {
 width: 960px;
@@ -43,7 +43,7 @@ height: 60px;
 text-align: center;
 }
 .content {
-background: #FC4E66;
+background:#E880F5;
 margin: 0px;
 float: left;
 width: 100%;
